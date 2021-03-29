@@ -1,3 +1,4 @@
+# board class
 class Board
   attr_accessor :valid
   attr_reader :game, :square
@@ -43,6 +44,7 @@ class Board
   end
 end
 
+# board class
 class Player
   attr_accessor :name
   attr_reader :letter

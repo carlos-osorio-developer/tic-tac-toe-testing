@@ -1,4 +1,3 @@
-require_relative '../bin/main'
 require_relative '../lib/game_logic'
 
 describe Board do
