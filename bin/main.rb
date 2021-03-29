@@ -1,3 +1,4 @@
+
 require_relative '../lib/game_logic'
 
 player1 = Player.new('X')

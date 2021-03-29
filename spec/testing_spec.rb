@@ -1,4 +1,4 @@
-require_relative '../bin/main'
+# rubocop:disable Metrics/BlockLength
 require_relative '../lib/game_logic'
 
 describe Board do
@@ -55,3 +55,5 @@ describe Board do
     end
   end
 end
+
+# rubocop:enable Metrics/BlockLength
