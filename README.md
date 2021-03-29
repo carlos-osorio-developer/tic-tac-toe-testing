@@ -25,7 +25,7 @@ In this project a tic-tac-toe game is built, where two human players can play ag
     [Click here for Windows](https://stackify.com/install-ruby-on-windows-everything-you-need-to-get-going/)
 
 3. Usage Run the following command into your terminal: </br>
-```console ruby bin/main ```
+```console ruby bin/main.rb ```
 
 ## How to play
 
