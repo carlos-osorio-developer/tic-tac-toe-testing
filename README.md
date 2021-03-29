@@ -38,6 +38,15 @@ In this project a tic-tac-toe game is built, where two human players can play ag
 
 ![How to play](https://cdn.filestackcontent.com/bPdQkJMORGm38xwdVxTp)
 
+## How to test 
+
+1. Open your terminal
+2. To install Rspec, run the following command into your terminal: </br>
+``` gem install rspec ```
+3. Go to your local project repository with the cd command.
+4. To run the test examples, run the following command into your terminal: </br>
+``` rspec ```
+
 ## Authors
 
 👤 **Carlos**
@@ -56,7 +65,7 @@ In this project a tic-tac-toe game is built, where two human players can play ag
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/John-Arboleda/Tic_Tac_Toe/issues).
+Feel free to check the [issues page](https://github.com/carlos-osorio-developer/tic-tac-toe-testing/issues).
 
 ## Show your support
 
