@@ -2,11 +2,15 @@ require_relative '../bin/main.rb'
 require_relative '../lib/game_logic.rb'
 
 describe Board do
-    
-    describe "check_valid_move" do      
-      it "replace a number with the marker for a valid move" do        
-        board1 = Board.new([1, 2, 3, 4, 5, 6, 7, 8, 9])
-        expect(board1.make_a_move("X", "X")).to eql(2)
+    describe "#check_valid_move" do      
+      it "valid move returns true" do        
+        board1 = Board.new
+        expect(board1.check_valid_move(3)).to eql(true)
+      end
+
+      it "invalid move do not returns true" do        
+        board1 = Board.new
+        expect(board1.check_valid_move(55)).not_to eql(true)
       end
     end
   end
