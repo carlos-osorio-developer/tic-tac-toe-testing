@@ -23,5 +23,35 @@ describe Board do
         board.square[2] = player1.letter
         expect(board.win(player1)).to eql(true) 
       end
+
+      it "empty board returns false" do
+        board = Board.new
+        player1 = Player.new("x")        
+        expect(board.win(player1)).to eql(false) 
+      end
+
+      it "a losing player returns false" do
+        board = Board.new
+        player1 = Player.new("x")
+        board.square[0] = player1.letter        
+        expect(board.win(player1)).to eql(false) 
+      end
+    end
+
+    describe "#draw" do
+      it "return true if the game is over" do
+        board = Board.new
+        player1 = Player.new("x")
+        board.square[0] = player1.letter
+        board.square[1] = player1.letter
+        board.square[2] = player1.letter
+        board.square[3] = player1.letter
+        board.square[4] = player1.letter
+        board.square[5] = player1.letter
+        board.square[6] = player1.letter
+        board.square[7] = player1.letter
+        board.square[8] = player1.letter
+        expect(board.draw).to eql(true) 
+      end
     end
   end
