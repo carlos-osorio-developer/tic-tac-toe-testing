@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # board class
 class Board
   attr_accessor :valid

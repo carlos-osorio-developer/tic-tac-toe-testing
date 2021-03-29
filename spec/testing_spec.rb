@@ -1,6 +1,3 @@
-# frozen_string_literal: true
-
-# rubocop:disable Metrics/BlockLength
 require_relative '../lib/game_logic'
 
 describe Board do
@@ -58,4 +55,4 @@ describe Board do
   end
 end
 
-# rubocop:enable Metrics/BlockLength
+
