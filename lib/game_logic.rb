@@ -18,11 +18,11 @@ class Board
 
   def check_valid_move(input)
     @input = input
-    if !@square.include?(input)
+    if @square.include?(input)
+      @valid = true
+    else
       @valid = false
       false
-    else
-      @valid = true
     end
   end
 
@@ -52,4 +52,3 @@ class Player
     @letter = letter
   end
 end
-

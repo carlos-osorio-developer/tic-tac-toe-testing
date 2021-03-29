@@ -12,7 +12,7 @@ require_relative '../lib/game_logic'
 # end
 
 # while player2.name == ''
-#   puts 'enter player two name?'  
+#   puts 'enter player two name?'
 #   player2.name = gets.chomp
 # end
 
