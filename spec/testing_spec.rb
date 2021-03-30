@@ -17,7 +17,6 @@ describe Board do
   describe '#win' do
     it 'winner player returns true' do           
       board1.square[0..2] = Array.new(3,player1.letter)
-      p board1.square
       expect(board1.win(player1)).to eql(true)
     end
 
