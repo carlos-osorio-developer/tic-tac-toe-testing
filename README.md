@@ -17,7 +17,7 @@ In this project a tic-tac-toe game is built, where two human players can play ag
 ## Installation
 
 1. Run the following command into your terminal: </br> 
-```console git clone git@github.com:John-Arboleda/Tic_Tac_Toe.git ``` 
+```console git clone git@github.com:carlos-osorio-developer/tic-tac-toe-testing.git ``` 
 
 2. Make sure you have Ruby installed on your computer
 
@@ -25,7 +25,7 @@ In this project a tic-tac-toe game is built, where two human players can play ag
     [Click here for Windows](https://stackify.com/install-ruby-on-windows-everything-you-need-to-get-going/)
 
 3. Usage Run the following command into your terminal: </br>
-```console ruby bin/main ```
+```console ruby bin/main.rb ```
 
 ## How to play
 
