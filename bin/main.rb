@@ -5,7 +5,6 @@ player2 = Player.new('O')
 
 while player1.name == ''
   puts 'enter player one name?'
-
   player1.name = gets.chomp
 end
 
